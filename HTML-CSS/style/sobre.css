@@ -1,0 +1,126 @@
+body {
+  background-color: lavenderblush;
+  font-family:'Times New Roman', Times, serif;
+}
+
+/*estilos aplicados no elementos da seçaõ nav*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color:hotpink ;
+  align-items: center;
+  border-bottom: 2px solid grey;
+  margin: 5px auto;
+}
+
+/*estilo aplicado na lista da seção nav*/
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li {
+   margin-right: 12px;
+}
+
+ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+ul li a:hover{
+  color:purple;
+}
+
+/****************************************/
+.saudacao {
+  text-align: center;
+}
+
+#psyduck{
+display: inline-flex;
+width:auto;
+}
+
+fieldset {
+  width: 50%;
+  margin: 0px auto;
+  margin-bottom: 5px;
+  background-color:moccasin;
+}
+
+.conteudo {
+ margin: 10px;
+}
+
+.conteudo h1,h3 {
+  text-align: center;
+}
+.conteudo p {
+  text-align: center;
+}
+
+.conteudo img {
+  display: block;
+  margin: 0px auto;
+  width: 200px;
+}
+#filmeTTLMT {
+  width: 500px;
+}
+
+footer {
+  padding: 20px;
+  background-color: rgb(48, 22, 43);
+  border-top: 2px solid pink;
+  margin-top: 20px;
+  color: #FFFFFF;
+}
+.email a {
+  color: pink;
+}
+#Clara {
+  font-size: 10px;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 15px;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color:slateblue;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.styled-table tbody tr:nth-of-type(odd) {
+  background-color: rgb(194, 185, 255);
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid slateblue;
+}
+
+.styled-table tbody tr:hover {
+    color:purple;
+    background-color: pink;
+}
